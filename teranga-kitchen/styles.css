@@ -1,0 +1,215 @@
+/* CSS reset and base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-Weight: 400;
+    background-color: #FDF8F3;
+}
+
+header h2, header p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+section {
+    max-width: 1400px;
+    margin: 20px auto;
+    /* padding: 20px; */
+    margin-bottom:40px ;
+}
+
+button {
+    background-color: #C2571A;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    padding: 12px;
+    Border: 2px solid #f5e6d3
+}
+
+p {
+    /* width: 500px; */
+    margin: 10px auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer {
+    padding: 15px 25px;
+    text-align: center;
+ }  
+ 
+header p{
+    max-width: 550px;
+    font-size: 16px;
+ }
+
+ .hero {
+    margin-top: 90px;
+ }
+
+ .hero h2{
+    font-size: 36px;
+
+ }
+
+header nav, footer {
+    background-color: #1B0801;
+    /* padding: 15px 25px; */
+    color: white;
+
+}
+
+
+
+nav a {
+    font-size: 16px;
+}
+/* header p {
+    font-size: ;
+} */
+
+h1 {
+    font-size: 32px;
+    color: #C2571A;
+    border-bottom: #D4A84B;
+}
+h2{
+    font-size: 24px;
+    color: #C2571A;
+    border-bottom: #D4A84B;
+}
+h3{
+    font-size: 20px;
+}
+
+img {
+    display: block;
+}
+
+
+section h2 {
+    border-bottom: 2px solid #C2571A;
+}
+
+/* Header Section */
+
+.home-header {
+    background-image: url('./images/hero-food.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover; 
+    font-size: 36px;
+    color: #D4A84B;
+    /* position: relative; */
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+
+} 
+/* .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: black;
+} */
+
+
+.logo {
+    color: #D4A84B;
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+
+}
+
+
+.section-higlight {
+    background-color: #F5E6D3;
+    border-radius: 5px;
+    padding: 40px;
+
+}
+
+.popular-dishes {
+    
+}
+
+
+/* About page styles */
+
+
+.about-hero {
+    background-color: #C2571A;
+    padding: 30px 10px;
+}
+
+.opening-hours {
+    padding: 20px;
+    background-color: #f5e6d3;
+    border-radius: 8px;
+}
+
+
+/* Contact page styles */
+
+form label {
+    display: inline;
+    font-size: 14px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D4A84B;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.contact-info {
+    padding: 20px;
+    background-color: #f5e6d3;
+    border-radius: 8px;
+}
